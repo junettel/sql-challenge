@@ -114,3 +114,11 @@ from employees
 group by last_name
 order by last_name_count desc;
 
+-- Epilogue
+select
+	emp_no,
+	first_name,
+	last_name
+from employees
+where emp_no = '499942';
+
