@@ -1,9 +1,13 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+﻿DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS titles;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS dept_emp;
+DROP TABLE IF EXISTS dept_manager;
+DROP TABLE IF EXISTS salaries;
+
+-- Deleted all instances of double quotes from QuickDBD export
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
-
--- Deleted all instances of double quotes
-
 
 CREATE TABLE departments (
     dept_no VARCHAR(4)   NOT NULL,
